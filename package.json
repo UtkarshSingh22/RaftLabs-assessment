@@ -1,0 +1,36 @@
+{
+    "name": "raftlabs-assignment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/UtkarshSingh22/RaftLabs-assignment.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/UtkarshSingh22/RaftLabs-assignment/issues"
+    },
+    "homepage": "https://github.com/UtkarshSingh22/RaftLabs-assignment#readme",
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-jwt": "^8.4.1",
+        "joi": "^17.9.2",
+        "jsonwebtoken": "^9.0.1",
+        "mongoose": "^7.4.1",
+        "node-cache": "^5.1.2",
+        "socket.io": "^4.7.2"
+    }
+}
