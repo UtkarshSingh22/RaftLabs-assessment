@@ -189,9 +189,8 @@ http://localhost:3000/api/
 
 1. Status: 204 No Content
 2. Status: 404 Not Found
-Status: 401 Unauthorized
-Content-Type: application/json
+3. Status: 401 Unauthorized
 
-{
+`{
     "error": "Invalid or missing JWT token"
-}
+}`
